@@ -41,6 +41,12 @@ public class Review {
         this.user = user;
     }
 
+    public Review(String text, Movie movie, User user) {
+        this.text = text;
+        this.movie = movie;
+        this.user = user;
+    }
+
     public Long getId() {
         return id;
     }
